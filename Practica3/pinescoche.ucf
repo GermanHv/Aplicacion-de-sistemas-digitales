@@ -1,0 +1,5 @@
+NET "PI" LOC="P1";
+NET "PD" LOC="P5";
+NET "C" LOC="P7";
+NET "SW" LOC="P9";
+NET "AL" LOC="P11";

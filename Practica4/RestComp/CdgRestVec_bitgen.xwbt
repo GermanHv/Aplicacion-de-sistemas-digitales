@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\ISE projects\Practica4\RestComp\CdgRestVec.ncd
+OUTFILE=E:\ISE projects\Practica4\RestComp\CdgRestVec.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=E:\ISE projects\Practica4\RestComp
+LICENSE=ISE
+USER_INFO=212418980_0_0_309

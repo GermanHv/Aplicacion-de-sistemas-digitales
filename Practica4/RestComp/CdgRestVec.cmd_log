@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/RestComp/CdgRestVec.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CdgRestVec_map.ncd CdgRestVec.ngd CdgRestVec.pcf 
+par -w -intstyle ise -ol high -mt off CdgRestVec_map.ncd CdgRestVec.ncd CdgRestVec.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CdgRestVec.twx CdgRestVec.ncd -o CdgRestVec.twr CdgRestVec.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CdgRestVec_map.ncd CdgRestVec.ngd CdgRestVec.pcf 
+par -w -intstyle ise -ol high -mt off CdgRestVec_map.ncd CdgRestVec.ncd CdgRestVec.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CdgRestVec.twx CdgRestVec.ncd -o CdgRestVec.twr CdgRestVec.pcf 
+bitgen -intstyle ise -f CdgRestVec.ut CdgRestVec.ncd 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/Practica4/RestComp/CdgRestVec.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestComp.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/RestComp/CdgRestVec.xst" -ofn "E:/ISE projects/Practica4/RestComp/CdgRestVec.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestComp.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestComp.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CdgRestVec_map.ncd CdgRestVec.ngd CdgRestVec.pcf 
+par -w -intstyle ise -ol high -mt off CdgRestVec_map.ncd CdgRestVec.ncd CdgRestVec.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CdgRestVec.twx CdgRestVec.ncd -o CdgRestVec.twr CdgRestVec.pcf 
+bitgen -intstyle ise -f CdgRestVec.ut CdgRestVec.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestCompVec.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestCompVec.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestCompVec.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestCompVec.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinRestCompVec.ucf -p xc6slx9-tqg144-3 "CdgRestVec.ngc" CdgRestVec.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o CdgRestVec_map.ncd CdgRestVec.ngd CdgRestVec.pcf 
+par -w -intstyle ise -ol high -mt off CdgRestVec_map.ncd CdgRestVec.ncd CdgRestVec.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml CdgRestVec.twx CdgRestVec.ncd -o CdgRestVec.twr CdgRestVec.pcf -ucf PinRestCompVec.ucf 
+bitgen -intstyle ise -f CdgRestVec.ut CdgRestVec.ncd 

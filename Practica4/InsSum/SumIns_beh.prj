@@ -1,0 +1,3 @@
+vhdl work "SumCom.vhd"
+vhdl work "SemiSum.vhd"
+vhdl work "SumIns.vhd"

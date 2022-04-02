@@ -1,0 +1,83 @@
+ISim log file
+Running: E:\ISE projects\RestComp\CdgRestVec_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ISE projects/RestComp/CdgRestVec_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/b 1111 -radix bin
+# isim force add /cdgrestvec/b 1111 -radix bin
+# restart
+# run 20ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 20ns
+# restart
+# run 20ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/b 1111 -radix bin
+# isim force add /cdgrestvec/b 1111 -radix bin
+# run 20ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /cdgrestvec/a 0101 -radix bin
+# isim force add /cdgrestvec/a 0101 -radix bin
+# isim force add /cdgrestvec/b 0001 -radix bin
+# isim force add /cdgrestvec/b 0001 -radix bin
+# restart
+# run 20ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /cdgrestvec/a 0101 -radix bin
+# isim force add /cdgrestvec/a 0101 -radix bin
+# isim force add /cdgrestvec/b 0001 -radix bin
+# isim force add /cdgrestvec/b 0001 -radix bin
+# run 20ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/a 0000 -radix bin
+# isim force add /cdgrestvec/b 0000 -radix bin
+# isim force add /cdgrestvec/b 0000 -radix bin
+# run 20ns
+# isim force add /cdgrestvec/a 1111 -radix bin
+# isim force add /cdgrestvec/a 1111 -radix bin
+# isim force add /cdgrestvec/b 1111 -radix bin
+# isim force add /cdgrestvec/b 1111 -radix bin
+# run 20ns
+# isim force add /cdgrestvec/a 1000 -radix bin
+# isim force add /cdgrestvec/a 1000 -radix bin
+# isim force add /cdgrestvec/b 1100 -radix bin
+# isim force add /cdgrestvec/b 1100 -radix bin
+# run 20ns
+# isim force add /cdgrestvec/a 1001 -radix bin
+# isim force add /cdgrestvec/a 1001 -radix bin
+# isim force add /cdgrestvec/b 1001 -radix bin
+# isim force add /cdgrestvec/b 1001 -radix bin
+# run 20ns
+# isim force add /cdgrestvec/a 1011 -radix bin
+# isim force add /cdgrestvec/a 1011 -radix bin
+# isim force add /cdgrestvec/b 1011 -radix bin
+# isim force add /cdgrestvec/b 1011 -radix bin
+# run 20ns
+# isim force add /cdgrestvec/a 1110 -radix bin
+# isim force add /cdgrestvec/a 1110 -radix bin
+# isim force add /cdgrestvec/b 0011 -radix bin
+# isim force add /cdgrestvec/b 0011 -radix bin
+# run 20ns

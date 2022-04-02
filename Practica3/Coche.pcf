@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 18 18:15:28 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "AL" LOCATE = SITE "P11" LEVEL 1;
+COMP "PD" LOCATE = SITE "P5" LEVEL 1;
+COMP "PI" LOCATE = SITE "P1" LEVEL 1;
+COMP "SW" LOCATE = SITE "P9" LEVEL 1;
+COMP "C" LOCATE = SITE "P7" LEVEL 1;
+SCHEMATIC END;
+

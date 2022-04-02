@@ -1,0 +1,104 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml CdgRestComp.twx CdgRestComp.ncd -o CdgRestComp.twr
+CdgRestComp.pcf
+
+Design file:              CdgRestComp.ncd
+Physical constraint file: CdgRestComp.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A0             |D0             |    6.435|
+A0             |D1             |    6.506|
+A0             |D2             |    6.310|
+A0             |D3             |    7.237|
+A0             |E              |    6.861|
+A0             |G              |    7.564|
+A0             |L              |    7.373|
+A0             |P3             |    7.545|
+A1             |D1             |    6.595|
+A1             |D2             |    6.324|
+A1             |D3             |    7.326|
+A1             |E              |    7.030|
+A1             |G              |    7.375|
+A1             |L              |    7.462|
+A1             |P3             |    7.634|
+A2             |D2             |    6.581|
+A2             |D3             |    7.086|
+A2             |E              |    6.675|
+A2             |G              |    7.442|
+A2             |L              |    7.222|
+A2             |P3             |    7.394|
+A3             |D3             |    6.702|
+A3             |E              |    6.139|
+A3             |G              |    6.845|
+A3             |L              |    6.838|
+A3             |P3             |    7.010|
+B              |D0             |    6.500|
+B              |D1             |    6.815|
+B              |D2             |    6.786|
+B              |D3             |    7.546|
+B              |E              |    6.926|
+B              |G              |    7.335|
+B              |L              |    7.682|
+B              |P3             |    7.854|
+B1             |D1             |    6.460|
+B1             |D2             |    5.929|
+B1             |D3             |    7.191|
+B1             |E              |    6.875|
+B1             |G              |    7.384|
+B1             |L              |    7.327|
+B1             |P3             |    7.499|
+B2             |D2             |    6.402|
+B2             |D3             |    6.880|
+B2             |E              |    5.938|
+B2             |G              |    7.146|
+B2             |L              |    7.016|
+B2             |P3             |    7.188|
+B3             |D3             |    6.838|
+B3             |E              |    6.512|
+B3             |G              |    6.452|
+B3             |L              |    6.974|
+B3             |P3             |    7.146|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Mar 31 12:31:01 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4554 MB
+
+
+

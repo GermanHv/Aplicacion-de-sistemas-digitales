@@ -1,0 +1,28 @@
+Command line:
+   CdgRestVec_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54882
+
+Thu Mar 31 12:40:12 2022
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5466.31 Meg
+
+ Total Signals          : 8
+ Total Nets             : 19
+ Total Signal Drivers   : 11
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 379
+
+ Total Simulation Time: 0.46875 sec
+
+ Current Memory Usage: 4837.16 Meg
+
+Thu Mar 31 12:57:54 2022
+

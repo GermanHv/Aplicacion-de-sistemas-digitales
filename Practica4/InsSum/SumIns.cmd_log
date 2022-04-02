@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "SumIns.ngc" SumIns.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumIns_map.ncd SumIns.ngd SumIns.pcf 
+par -w -intstyle ise -ol high -mt off SumIns_map.ncd SumIns.ncd SumIns.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumIns.twx SumIns.ncd -o SumIns.twr SumIns.pcf 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "SumIns.ngc" SumIns.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumIns_map.ncd SumIns.ngd SumIns.pcf 
+par -w -intstyle ise -ol high -mt off SumIns_map.ncd SumIns.ncd SumIns.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumIns.twx SumIns.ncd -o SumIns.twr SumIns.pcf 
+xst -intstyle ise -ifn "E:/ISE projects/Practica4/InsSum/SumIns.xst" -ofn "E:/ISE projects/Practica4/InsSum/SumIns.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "SumIns.ngc" SumIns.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumIns_map.ncd SumIns.ngd SumIns.pcf 
+par -w -intstyle ise -ol high -mt off SumIns_map.ncd SumIns.ncd SumIns.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumIns.twx SumIns.ncd -o SumIns.twr SumIns.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm PinInsSum.bmm -p xc6slx9-tqg144-3 "SumIns.ngc" SumIns.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumIns_map.ncd SumIns.ngd SumIns.pcf 
+par -w -intstyle ise -ol high -mt off SumIns_map.ncd SumIns.ncd SumIns.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumIns.twx SumIns.ncd -o SumIns.twr SumIns.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm PinInsSum.bmm -p xc6slx9-tqg144-3 "SumIns.ngc" SumIns.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinsInsSum.ucf -p xc6slx9-tqg144-3 "SumIns.ngc" SumIns.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SumIns_map.ncd SumIns.ngd SumIns.pcf 
+par -w -intstyle ise -ol high -mt off SumIns_map.ncd SumIns.ncd SumIns.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml SumIns.twx SumIns.ncd -o SumIns.twr SumIns.pcf -ucf PinsInsSum.ucf 
+bitgen -intstyle ise -f SumIns.ut SumIns.ncd 
