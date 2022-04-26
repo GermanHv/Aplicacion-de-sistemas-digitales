@@ -1,0 +1,21 @@
+
+		//Entradas 
+	//SELECTORES
+NET "SE2" LOC="P1";
+NET "SE1" LOC="P5";
+NET "SE0" LOC="P7";
+
+	//BITS
+NET "A1" LOC="P2";
+NET "A0" LOC="P6";
+
+NET "B1" LOC="P8";
+NET "B0" LOC="P10";
+
+//Salidas
+NET  "Z4" LOC="P9";
+NET  "Z3" LOC="P11";
+NET  "Z2" LOC="P14";
+NET  "Z1" LOC="P16";
+NET  "Z0" LOC="P21";
+

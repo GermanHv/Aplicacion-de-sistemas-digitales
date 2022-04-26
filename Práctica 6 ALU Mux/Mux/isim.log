@@ -1,0 +1,89 @@
+ISim log file
+Running: E:\ISE projects\Practica6\Mux\MuxProgram_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/ISE projects/Practica6/Mux/MuxProgram_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# isim force add /muxprogram/se0 1 -radix bin
+# isim force add /muxprogram/se0 1 -radix bin
+# isim force add /muxprogram/se1 1 -radix bin
+# isim force add /muxprogram/se1 1 -radix bin
+# isim force add /muxprogram/se2 1 -radix bin
+# isim force add /muxprogram/se2 1 -radix bin
+# isim force add /muxprogram/a1 1 -radix bin
+# isim force add /muxprogram/a1 1 -radix bin
+# isim force add /muxprogram/a0 0 -radix bin
+# isim force add /muxprogram/a0 0 -radix bin
+# isim force add /muxprogram/b1 1 -radix bin
+# isim force add /muxprogram/b1 1 -radix bin
+# isim force add /muxprogram/b0 0 -radix bin
+# isim force add /muxprogram/b0 0 -radix bin
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1ns
+# restart
+# isim force add /muxprogram/se0 1 -radix bin
+# isim force add /muxprogram/se0 1 -radix bin
+# isim force add /muxprogram/se1 1 -radix bin
+# isim force add /muxprogram/se1 1 -radix bin
+# isim force add /muxprogram/se2 0 -radix bin
+# isim force add /muxprogram/se2 0 -radix bin
+# isim force add /muxprogram/a1 1 -radix bin
+# isim force add /muxprogram/a1 1 -radix bin
+# isim force add /muxprogram/a0 0 -radix bin
+# isim force add /muxprogram/a0 0 -radix bin
+# isim force add /muxprogram/b1 1 -radix bin
+# isim force add /muxprogram/b1 1 -radix bin
+# isim force add /muxprogram/b0 0 -radix bin
+# isim force add /muxprogram/b0 0 -radix bin
+# run 1ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /muxprogram/se0 0 -radix bin
+# isim force add /muxprogram/se0 0 -radix bin
+# run 1ns
+# isim force add /muxprogram/se1 0 -radix bin
+# isim force add /muxprogram/se1 0 -radix bin
+# run 1ns
+# isim force add /muxprogram/a0 1 -radix bin
+# isim force add /muxprogram/a0 1 -radix bin
+# isim force add /muxprogram/b0 1 -radix bin
+# isim force add /muxprogram/b0 1 -radix bin
+# run 1ns
+# isim force add /muxprogram/se0 1 -radix bin
+# isim force add /muxprogram/se0 1 -radix bin
+# run 1ns
+# isim force add /muxprogram/a0 0 -radix bin
+# isim force add /muxprogram/a0 0 -radix bin
+# isim force add /muxprogram/a1 0 -radix bin
+# isim force add /muxprogram/a1 0 -radix bin
+# run 1ns
+# isim force add /muxprogram/se1 1 -radix bin
+# isim force add /muxprogram/se1 1 -radix bin
+# isim force add /muxprogram/se2 1 -radix bin
+# isim force add /muxprogram/se2 1 -radix bin
+# run 1ns
+# isim force add /muxprogram/a1 1 -radix bin
+# isim force add /muxprogram/a1 1 -radix bin
+# isim force add /muxprogram/b1 0 -radix bin
+# isim force add /muxprogram/b1 0 -radix bin
+# run 1ns
+# isim force add /muxprogram/b0 0 -radix bin
+# isim force add /muxprogram/b0 0 -radix bin
+# isim force add /muxprogram/b1 1 -radix bin
+# isim force add /muxprogram/b1 1 -radix bin
+# isim force add /muxprogram/a0 1 -radix bin
+# isim force add /muxprogram/a0 1 -radix bin
+# isim force add /muxprogram/a1 0 -radix bin
+# isim force add /muxprogram/a1 0 -radix bin
+# run 1ns

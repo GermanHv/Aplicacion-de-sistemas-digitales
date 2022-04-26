@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/ISE projects/Practica6/Mux/MuxProgram_isim_beh.exe" -prj "E:/ISE projects/Practica6/Mux/MuxProgram_beh.prj" "work.MuxProgram" 

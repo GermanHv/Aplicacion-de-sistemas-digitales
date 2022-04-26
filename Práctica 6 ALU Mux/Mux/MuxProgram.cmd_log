@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "E:/ISE projects/Practica6/Mux/MuxProgram.xst" -ofn "E:/ISE projects/Practica6/Mux/MuxProgram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "MuxProgram.ngc" MuxProgram.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MuxProgram_map.ncd MuxProgram.ngd MuxProgram.pcf 
+par -w -intstyle ise -ol high -mt off MuxProgram_map.ncd MuxProgram.ncd MuxProgram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MuxProgram.twx MuxProgram.ncd -o MuxProgram.twr MuxProgram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 "MuxProgram.ngc" MuxProgram.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MuxProgram_map.ncd MuxProgram.ngd MuxProgram.pcf 
+par -w -intstyle ise -ol high -mt off MuxProgram_map.ncd MuxProgram.ncd MuxProgram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MuxProgram.twx MuxProgram.ncd -o MuxProgram.twr MuxProgram.pcf 
+bitgen -intstyle ise -f MuxProgram.ut MuxProgram.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-tqg144-3 "MuxProgram.ngc" MuxProgram.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MuxProgram_map.ncd MuxProgram.ngd MuxProgram.pcf 
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MuxProgram_map.ncd MuxProgram.ngd MuxProgram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pines.ucf -p xc6slx9-tqg144-3 "MuxProgram.ngc" MuxProgram.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MuxProgram_map.ncd MuxProgram.ngd MuxProgram.pcf 
+par -w -intstyle ise -ol high -mt off MuxProgram_map.ncd MuxProgram.ncd MuxProgram.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MuxProgram.twx MuxProgram.ncd -o MuxProgram.twr MuxProgram.pcf -ucf Pines.ucf 
+bitgen -intstyle ise -f MuxProgram.ut MuxProgram.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\ISE projects\Practica6\Mux\MuxProgram.ncd
+OUTFILE=E:\ISE projects\Practica6\Mux\MuxProgram.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=E:\ISE projects\Practica6\Mux
+LICENSE=ISE
+USER_INFO=212418980_0_0_309
